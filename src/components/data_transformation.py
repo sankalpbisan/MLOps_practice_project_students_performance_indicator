@@ -70,12 +70,7 @@ class DataTransformation:
             logging.info("Read Train-Test data successfully")
 
             logging.info("Getting preprocessing object")
-            preprocessor_obj =self.get_data_transformer_object()
-
-            '''
-            #For debugging...
-            logging.info(f"preprocessor object type:- {type(preprocessor_obj)}")
-            '''
+            preprocessor_obj = self.get_data_transformer_object()
 
             target_column_name = "math_score"
             numerical_columns = ["writing_score", "reading_score"]

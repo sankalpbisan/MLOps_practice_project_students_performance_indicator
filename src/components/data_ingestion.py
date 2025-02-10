@@ -11,6 +11,9 @@ from dataclasses import dataclass
 from src.components.data_transformation import DataTransformation
 from src.components.data_transformation import DataTransformationConfig
 
+from src.components.model_trainer import ModelTrainerConfig
+from src.components.model_trainer import ModelTrainer
+
 from src.utils import proj_dir_path
 
 '''
@@ -57,16 +60,18 @@ if __name__ == "__main__":
     obj = DataIngestion()
     obj.initiate_data_ingestion()
 
-#For running data_transformation.py uncomment following doc string
-'''
+#For running data_transformation.py & model_trainer.py uncomment following doc string
+# '''
     train_data, test_data = obj.initiate_data_ingestion()
 
-    #For debuggin
-    logging.info(f"train_path:{train_data}\ntest_path:{test_data}")
-
     data_transformation = DataTransformation()
-    data_transformation.initiate_data_transformation(train_data, test_data)
-'''
+    train_arr,test_arr,temp_var = data_transformation.initiate_data_transformation(train_data, test_data)
+
+    modeltrainer = ModelTrainer()
+    print(modeltrainer.initiate_model_trainer(train_arr,test_arr))
+
+    
+# '''
 
     # transform_obj = DataTransformation()
     #

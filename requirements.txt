@@ -4,4 +4,6 @@ seaborn
 scikit-learn
 dill
 matplotlib
+catboost
+xgboost
 #-e .    #This line should be commented untill your entire sys isn't ready

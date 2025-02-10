@@ -26,6 +26,8 @@ share/python-wheels/
 *.egg
 MANIFEST
 
+src/components/catboost_info/
+
 #Temp File
 temp.py
 
