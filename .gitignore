@@ -25,11 +25,15 @@ share/python-wheels/
 .installed.cfg
 *.egg
 MANIFEST
-
+app_GUI.py
 src/components/catboost_info/
 
 #Temp File
 temp.py
+
+/notebook/1 . EDA STUDENT PERFORMANCE .ipynb
+/notebook/2. MODEL TRAINING.ipynb
+
 
 # PyInstaller
 #  Usually these files are written by a python script from a template
