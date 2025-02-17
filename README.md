@@ -14,16 +14,8 @@ The webpage can be accessed by [clicking here](https://sankalp-mlops-practice-pr
 
 - [Introduction](#introduction)
 - [Features](#features)
-- [Installation](#installation)
 - [Usage](#usage)
-- [Project Structure](#project-structure)
-- [Model](#model)
-- [Deployment](#deployment)
-- [Evaluation](#evaluation)
-- [MLOps Practices](#mlops-practices)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
+- [Model Performance](#evaluation)
 
 ---
 
