@@ -50,7 +50,7 @@ Before running the code, ensure you have set up the required environment. This i
     streamlit run app.py
     ```
 
-    This will start the Streamlit application. By default, it runs on `http://127.0.0.1:8501` (Streamlit uses port 8501, not 5000).
+    This will start the Streamlit application. By default, it runs on `http://127.0.0.1:8501`.
 
 * **Making Predictions:**
 
